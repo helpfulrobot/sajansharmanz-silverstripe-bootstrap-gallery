@@ -1,0 +1,12 @@
+---
+name: Bootstrap Gallery
+---
+Image:
+  extensions:
+    - 'GalleryImageExtension'
+GalleryPage:
+  extensions:
+    - 'GalleryExtension'
+GalleryPage_Controller:
+  extensions:
+    - 'BootstrapGallery'
