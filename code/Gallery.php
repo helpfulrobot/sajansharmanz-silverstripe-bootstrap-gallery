@@ -41,6 +41,13 @@ class GalleryExtension extends DataExtension {
 		$GalleryImages->setFolderName('gallery-images');
 		$GalleryImages->getValidator()->setAllowedExtensions('png', 'gif', 'jpeg', 'jpg');
 	}
+
+	/**
+	 * Function to call Images - Used in sajansharmanz/swipestripe-gallery module (DO NOT REMOVE!)
+	 */
+	public function OrderedImages() {
+		return $this->owner->Images()->sort('SortOrder');
+	}
 }
 
 class GalleryImageExtension extends DataExtension {
