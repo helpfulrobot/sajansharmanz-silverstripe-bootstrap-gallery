@@ -16,7 +16,7 @@ class BootstrapGallery extends DataExtension {
 		Requirements::css('gallery/css/blueimp-gallery.min.css');
 		Requirements::css('gallery/css/bootstrap-image-gallery.min.css');
 		Requirements::css('gallery/css/bootstrap.min.css');
-		Requirements::css('gallery/css/custom.css');
+		Requirements::css('gallery/css/gallery-custom.css');
 
 		// Javascript Files
 		Requirements::javascript('gallery/javascript/jquery.min.js');
